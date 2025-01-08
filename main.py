@@ -1,9 +1,6 @@
 import streamlit as st
 from utils import generate_script
-import os
 
-os.environ["http_proxy"] = "http://127.0.0.1:7897"
-os.environ["https_proxy"] = "http://127.0.0.1:7897"
 
 st.title("🎬 视频脚本生成器")
 
